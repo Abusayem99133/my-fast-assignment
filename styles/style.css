@@ -1,0 +1,40 @@
+/* style sheared related  */
+body{
+    font-family: 'Merriweather', serif;
+    margin: 0px;
+    background-color: #fff;
+    /* margin: 0px;
+    padding: 0px;
+    box-sizing: border-box; */
+    
+}
+/* html{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+} */
+/* banner related style  */
+.banner-head{
+    border-radius: 16px;
+    background: url(/resources/Banner\ Image.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 600px;
+   
+}
+.banner-s-title{
+    color: #fff;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 400;
+    padding-top: 105px;
+}
+.banner-title{
+    color: #fff;
+    text-align: center;
+    font-size: 72px;
+    font-weight: 900;
+   padding-bottom: 110px;
+   
+}
