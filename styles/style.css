@@ -16,7 +16,7 @@ body{
 /* banner related style  */
 .banner-head{
     border-radius: 16px;
-    background: url(/resources/Banner\ Image.png);
+    background: url(../resources/Banner\ Image.png);
     background-repeat: no-repeat;
     background-size: contain;
     
@@ -74,7 +74,7 @@ body{
 /* new section container  */
 
 .sec-container{
-    background: url(/resources/Vectorrr.png);
+    background: url(../resources/Vectorrr.png);
     background-repeat: no-repeat;
     background-position: center;
     width: 1000px;
