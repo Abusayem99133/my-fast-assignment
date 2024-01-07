@@ -236,5 +236,50 @@ body{
  /* complex style related  */
  .complex-img{
     display: grid;
-    grid-template-columns: repeat(1fr,3);
+    grid-template-columns: repeat(3,1fr);
+ }
+ /* footer section style related  */
+
+ .img{
+    justify-content: center;
+    background-color: #A49996;
+    margin-top: 120px;
+    text-align: center;
+ }
+ .button-pry{
+    color: #fff;
+    background-color: #f00;
+    border-radius: 0px 50px 50px 0px;
+    font-family: inter;
+    font-size: 20px;
+    font-weight: 600;
+ }
+
+ .footer-main{
+    display: flex;
+    justify-content: space-between;
+    background-color: #070211;
+    margin-top: 120px;
+    padding: 50px;
+ }
+ .big-title{
+    color: #fff;
+    margin-top: 40px;
+ }
+ .solid{
+    color: #fff;
+    margin-top: 40px;
+ }
+ .last-footer{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    background-color: #070211;
+ }
+ .more-footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #070211;
+    color: #fff;
+    padding: 50px;
  }
