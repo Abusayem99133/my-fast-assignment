@@ -19,6 +19,7 @@ body{
     background: url(/resources/Banner\ Image.png);
     background-repeat: no-repeat;
     background-size: contain;
+    
     width: 100%;
     height: 600px;
    
@@ -69,4 +70,45 @@ body{
 .sec-image{
     justify-content: center;
     margin-left:240px ;
+}
+/* new section container  */
+
+.sec-container{
+    background: url(/resources/Vectorrr.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 1250px;
+    height: 100%;
+
+    
+    
+}
+
+.sec-1{
+    color: #fff;
+    font-size: 64px;
+    font-weight: 900;
+    margin-left: 126px;
+    margin-top: 126px;
+    margin-bottom: 0px;
+}
+.sec-2{
+    color: rgba(255,255,255,0.80);
+    font-family: inter;
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 126px;
+    margin-top: 24px;
+    
+}
+.btn-p{
+    color: #2326c9;
+    text-align: center;
+    font-family: inter;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 48px;
+    margin-left: 126px;
+    
+    
 }
