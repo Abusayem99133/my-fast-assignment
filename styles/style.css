@@ -28,13 +28,45 @@ body{
     text-align: center;
     font-size: 32px;
     font-weight: 400;
-    padding-top: 105px;
+    padding-top: 80px;
 }
 .banner-title{
     color: #fff;
     text-align: center;
     font-size: 72px;
     font-weight: 900;
-   padding-bottom: 110px;
+   padding-bottom: 177px;
    
+}
+/* new section related style  */
+
+.sec-title{
+    color: #f00;
+    text-align: center;
+    font-family: inter;
+    font-size: 88px;
+    font-weight: 700;
+    margin-top: 120px;
+    /* padding-bottom: 48px; */
+}
+.sec-description{
+    color:#f00;
+    text-align: center;
+    font-family: inter;
+    font-size: 24px;
+    font-weight: 500;
+ 
+}
+.sec-details{
+    color: #070211;
+    text-align: center;
+    font-family: inter;
+    font-size: 48px;
+    font-weight: 700;
+}
+/* image related style  */
+
+.sec-image{
+    justify-content: center;
+    margin-left:240px ;
 }
