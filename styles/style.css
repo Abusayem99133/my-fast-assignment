@@ -69,7 +69,7 @@ body{
 
 .sec-image{
     justify-content: center;
-    margin-left:240px ;
+    margin-left:125px ;
 }
 /* new section container  */
 
@@ -77,7 +77,7 @@ body{
     background: url(/resources/Vectorrr.png);
     background-repeat: no-repeat;
     background-position: center;
-    width: 1250px;
+    width: 1000px;
     height: 100%;
 
     
@@ -111,4 +111,24 @@ body{
     margin-left: 126px;
     
     
+}
+.sec-3{
+    text-align: center;
+    background-color:#fcf3f1;
+    font-family: inter;
+    font-size: 32px;
+    font-weight: 600;
+    margin-top: 100px;
+}
+.sec-place{
+    color: #f00;
+}
+.btn-primary{
+    color: #fff;
+    background: #f00;
+    border-radius: 5px;
+    font-family: inter;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 5px;
 }
