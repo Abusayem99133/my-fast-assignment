@@ -92,18 +92,25 @@ body{
     /* padding: 50px; */
     margin-top: 120px;
     margin-right: 130px;
+    /* margin-bottom: 40px; */
     width: 1000px;
     height: 100%;
 
     
     
 }
+.sec-container img{
+    margin-top: 60px;
+    width: 70%;
+    height: 70%;
+
+}
 
 .sec-1{
     color: #fff;
     font-size: 64px;
     font-weight: 900;
-    margin-left: 126px;
+    margin-left: 110px;
     margin-top: 126px;
     margin-bottom: 0px;
 }
@@ -112,7 +119,7 @@ body{
     font-family: inter;
     font-size: 18px;
     font-weight: 400;
-    margin-left: 126px;
+    margin-left: 110px;
     margin-top: 24px;
     
 }
@@ -124,6 +131,7 @@ body{
     font-weight: 700;
     margin-top: 48px;
     margin-left: 126px;
+  
     
     
 }
@@ -372,4 +380,8 @@ width: 100%;
     color: #fff;
     padding: 50px;
  }
- 
+hr{
+    /* color: #FFF; */
+ /* border:gray; */
+    margin: 0px;
+}
