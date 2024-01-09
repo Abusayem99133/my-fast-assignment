@@ -3,6 +3,7 @@ body{
     font-family: 'Merriweather', serif;
     margin: 0px;
     background-color: #fff;
+    /* padding: 20px; */
     /* margin: 0px;
     padding: 0px;
     box-sizing: border-box; */
@@ -45,6 +46,9 @@ body{
    
 }
 /* new section related style  */
+.sec-head{
+    margin-top: 120px;
+}
 
 .sec-title{
     color: #f00;
@@ -52,12 +56,13 @@ body{
     font-family: inter;
     font-size: 88px;
     font-weight: 700;
-    margin-top: 120px;
+    /* margin-top: 120px; */
     /* padding-bottom: 48px; */
 }
 .sec-description{
     color:#f00;
     text-align: center;
+    /* gap: 48px; */
     font-family: inter;
     font-size: 24px;
     font-weight: 500;
@@ -85,6 +90,7 @@ body{
     background-position:center;
     justify-content: space-between;
     /* padding: 50px; */
+    margin-top: 120px;
     margin-right: 130px;
     width: 1000px;
     height: 100%;
@@ -147,7 +153,7 @@ body{
 .title-head{
     display: flex;
     justify-content: space-between;
-    margin-top: 150px;
+    margin-top: 120px;
     padding: 50px;
 }
 .offer-title{
@@ -199,7 +205,7 @@ body{
 /* new discount style related  */
 .discount-container{
     text-align: center;
-    margin-top: 168px;
+    margin-top: 120px;
 }
 .sec-4{
     color: #070211;
@@ -264,9 +270,10 @@ width: 100%;
     margin-top: -100px;
     z-index: 1;
 }
-/* new image section  */
+/* new image section portfolio  */
 .main-title{
-    margin-left: 140px;
+    margin-top: 120px;
+    /* margin-left: 140px; */
 }
 
 .type-title{
@@ -333,6 +340,7 @@ width: 100%;
  }
 .footer{
     background-color: #070211;
+    margin-top: 120px;
 }
  .footer-main{
     display: flex;
@@ -364,3 +372,4 @@ width: 100%;
     color: #fff;
     padding: 50px;
  }
+ 
