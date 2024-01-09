@@ -15,12 +15,10 @@ body{
 } */
 /* banner related style  */
 
-.banner-head{
-background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
-}
+
 .banner-parent{
     border-radius: 16px;
-  background: url('./resources/Banner\ Image.png');
+  background: url(./resources/banner\ image.png);
     background-repeat: no-repeat;
     background-size: contain;
     
@@ -28,6 +26,9 @@ background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
     height: 600px;
    
 }
+.banner-head{
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    }
 .banner-s-title{
     color: #fff;
     text-align: center;
