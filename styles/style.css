@@ -14,9 +14,13 @@ body{
     box-sizing: border-box;
 } */
 /* banner related style  */
+
 .banner-head{
+background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+}
+.banner-parent{
     border-radius: 16px;
-    background: url(../resources/Banner\ Image.png);
+  background: url('/resources/Banner\ Image.png');
     background-repeat: no-repeat;
     background-size: contain;
     
@@ -74,9 +78,13 @@ body{
 /* new section container  */
 
 .sec-container{
+    display: flex;
     background: url(../resources/Vectorrr.png);
     background-repeat: no-repeat;
-    background-position: center;
+    background-position:center;
+    justify-content: space-between;
+    /* padding: 50px; */
+    margin-right: 130px;
     width: 1000px;
     height: 100%;
 
@@ -114,11 +122,12 @@ body{
 }
 .sec-3{
     text-align: center;
-    background-color:#fcf3f1;
+    background-color:#f1e0db;
     font-family: inter;
     font-size: 32px;
     font-weight: 600;
     margin-top: 100px;
+    padding: 49px;
 }
 .sec-place{
     color: #f00;
@@ -211,12 +220,54 @@ body{
 /* new images styles related work  */
 
 .img-sec{
-    justify-content: space-between;
+    /* display: flex;
+    justify-content: space-between; */
+    position: relative;
+}
+.img-sec-in{
+    display: flex;
+    
+    /* justify-content: space-between; */
+}
+.ractan-ps{
+    position: absolute;
+    right: 26%;
+    top: 10%;
+}
+.group-75 img{
+width: 100%;
+margin-bottom: -50px;
+    margin-top: 50px;
+    z-index: 2;
+    position: relative;
+}
+.group-75{
+    /* margin-right: 80px; */
+    width: 60%;
+    /* height: 100%; */
 }
 .ractan-p{
-    justify-content:space-around;
+    width: 40%;
+    
+}
+.ractan-p img{
+    width: 100%;
+    /* justify-content:space-around; */
+    
+}
+.ractan-p2 img{
+width: 100%;
+}
+.ractan-p2{
+    width: 100%;
+    margin-top: -100px;
+    z-index: 1;
 }
 /* new image section  */
+.main-title{
+    margin-left: 140px;
+}
+
 .type-title{
     color: #f00;
     font-family: inter;
@@ -237,24 +288,51 @@ body{
  .complex-img{
     display: grid;
     grid-template-columns: repeat(3,1fr);
+    gap: 15px;
+ }
+ .complex-img img{
+    width: 100%;
+    height: auto;
+ }
+ .complex-img img:hover{
+    outline: solid yellowgreen;
+    border-radius: 15px;
  }
  /* footer section style related  */
 
  .img{
     justify-content: center;
-    background-color: #A49996;
+    background-color: #ebddda;
+ 
     margin-top: 120px;
     text-align: center;
+    padding: 80px;
  }
- .button-pry{
+  .newsletter-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+ .email-area{
+    border-radius: 50px 0px 0px 50px;
+    background: #FFF;
+    padding: 5px 10px;
+    height: 23px;
+}
+.button-pry{
     color: #fff;
     background-color: #f00;
     border-radius: 0px 50px 50px 0px;
     font-family: inter;
     font-size: 20px;
     font-weight: 600;
+    /* height: 50px; */
+    padding: 5px 10px;
+    
  }
-
+.footer{
+    background-color: #070211;
+}
  .footer-main{
     display: flex;
     justify-content: space-between;
@@ -266,15 +344,17 @@ body{
     color: #fff;
     margin-top: 40px;
  }
- .solid{
+  .solid{
     color: #fff;
     margin-top: 40px;
- }
+ } 
  .last-footer{
     display: flex;
     justify-content: center;
     gap: 5px;
     background-color: #070211;
+    /* background: rgba(255, 255, 255, 0.15); */
+    /* border: 1px 0px solid white; */
  }
  .more-footer{
     display: flex;
